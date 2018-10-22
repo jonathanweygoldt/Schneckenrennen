@@ -8,11 +8,11 @@ public class Main {
 		Rennschnecke s1 = new Rennschnecke("Dieter", "Schnegge",3);
 		Rennschnecke s2 = new Rennschnecke("Herbert", "Schnegge",5);
 		
+		Rennen bilsterBerg = new Rennen(bilsterBerg);
 		
 		s1.krieche();
 		System.out.println(s1);
-		s1.krieche();
-		System.out.println(s1);
+		
 		
 		
 		
